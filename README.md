@@ -1,4 +1,4 @@
-Week 2: Supervised Machine Learning
+# Week 2: Supervised Machine Learning
 
 ## Overview
 This project demonstrates supervised learning using Scikit-learn, covering classification and regression.
@@ -29,7 +29,7 @@ An actual-versus-predicted plot is included.
 ## Files
 - `week2_supervised.ipynb` — notebook containing the code, evaluations, tables, and plots.
 - `requirements.txt` — Python packages required to run the notebook.
-- `Week2_Report.docx` — written summary of the work (add this file to the repository).
+- `Week2_Report.docx` — report summarizing the work and results.
 
 ## Setup
 Use Python 3.10 or newer if available.
@@ -41,8 +41,8 @@ python -m venv .venv
 Activate the virtual environment:
 
 **Windows**
-```bash
-.venv\\Scripts\\activate
+```powershell
+.venv\Scripts\activate
 ```
 
 **macOS/Linux**
@@ -68,3 +68,4 @@ Open `week2_supervised.ipynb` and run the cells from top to bottom.
 - The notebook drops rows with missing values from the selected Titanic columns.
 - Classification accuracy is compared separately from regression metrics because they evaluate different prediction tasks.
 - Model scores can vary if the dataset, features, or train/test split are changed.
+- The datasets are loaded by Seaborn and Scikit-learn, so an internet connection may be needed when first loading the Titanic dataset.
