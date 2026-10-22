@@ -1,4 +1,4 @@
-# YUVA Internship — Week 2: Supervised Machine Learning
+Week 2: Supervised Machine Learning
 
 ## Overview
 This project demonstrates supervised learning using Scikit-learn, covering classification and regression.
